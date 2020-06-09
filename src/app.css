@@ -1,0 +1,197 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+* {
+	scroll-behavior: smooth;
+	list-style-type: none;
+}
+
+body {
+  font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue',
+    Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #108db8;
+  font-weight: bold;
+}
+
+img {
+  max-width: 95%;
+}
+
+nav {
+  width: 100%;
+	border-bottom: 1px solid #108db8;
+	text-align: center;
+}
+
+nav a {
+  color: #108db8;
+  padding: 1rem;
+  display: inline-block;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.images_block{
+	display: flex;
+	justify-content: space-around;
+	border: #108db8 1px solid;
+	padding: 1rem;
+}
+
+.images_block--image{
+	height: 14rem;
+}
+
+.property{
+	border: #108db8 1px solid;
+	padding: 1.5rem;
+	margin-bottom: 2rem;
+	display: flex;
+	/* width: 40rem; */
+}
+
+#property-details .r-title-wrapper h1 {
+	display: inline-block;
+	margin: 0;
+	padding-bottom: 5px;
+	color: #5a5a5a;
+	border-bottom: none;
+}
+
+.property p{
+	margin: inherit;
+	margin-right: 1rem;
+}
+
+.property--block{
+	width: 90rem;
+}
+
+.property--image{
+	height: 8rem;
+	width: 8rem;
+}
+h5{
+	color: #108db8;
+}
+
+.property__row-padding-top{
+	padding-top: 5rem;
+}
+
+.property__div-margin-bottom{
+	margin-bottom: 1.5rem 
+}
+
+.properties--list{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0;
+}
+
+/*** component property details	*/
+#page-content:after {
+  background: #f1f1f1;
+  background: -moz-linear-gradient(top, #f1f1f1 0%, white 80%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f1f1f1), color-stop(80%, white));
+  background: -webkit-linear-gradient(top, #f1f1f1 0%, white 80%);
+  background: -o-linear-gradient(top, #f1f1f1 0%, white 80%);
+  background: -ms-linear-gradient(top, #f1f1f1 0%, white 80%);
+  background: linear-gradient(to bottom, #f1f1f1 0%, white 80%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1', endColorstr='#ffffff',GradientType=0 );
+  content: "";
+  left: 0;
+  height: 110px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+#page-content form > section {
+  margin-bottom: 30px;
+}
+
+#page-content section {
+  margin-bottom: 30px;
+}
+
+#page-content section h3 {
+  font-weight: normal;
+}
+
+#page-content address {
+  position: relative;
+}
+
+#page-content {
+  padding-bottom: 10px;
+  position: relative;
+}
+
+#page-content {
+  height: auto;
+}
+
+#page-content {
+	padding-top: 0px !important;
+}
+
+#page-content {
+	overflow: hidden;
+}
+
+#page-content .r-property-map-block{
+	padding: 2rem;
+}
+
+#page-content .r-property-map-block > div{
+	height: 32vh !important;
+}
+
+.btn-default{
+	background-color: #108db8;
+	color: #f1f1f1;
+}
+
+.image-gallery {
+	width: 100%;
+	height: auto;
+}
+
+.image-gallery-slide img {
+	width: 100%;
+	height: 400px;
+	max-height: 80vh;
+	object-fit: cover;
+	overflow: hidden;
+	object-position: center center;
+}
+
+.fullscreen .image-gallery-slide img {
+	max-height: 100vh;
+}
+
+.image-gallery-thumbnail {
+  width: 120px
+}
+
+.image-gallery-thumbnail img {
+  width: auto;
+  height: 65px;
+}
+
+.r-gallery-block .image-gallery-slide.center,
+.r-gallery-block .image-gallery-thumbnails-container  {
+	background-color: #f3f3f3;
+}

@@ -1,0 +1,489 @@
+{
+	"template": "__react_static_root__/src/pages/properties.js",
+	"sharedHashesByProp": {},
+	"data": {
+		"props": [
+			{
+				"id": 127,
+				"createdWAt": "2020-05-22T09:15:40.900Z",
+				"updatedWAt": "2020-05-30T07:42:01.833Z",
+				"agency_id": 1,
+				"area": 200,
+				"available_from": "2020-05-30T09:12:05.000Z",
+				"bathrooms": 1,
+				"bedrooms": 1,
+				"city": "Ivano-Frankove",
+				"country": "Ukraine",
+				"housing_type": "villa",
+				"deleted": false,
+				"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+				"interior": true,
+				"latitude": "49.9246157",
+				"longitude": "23.7306672",
+				"parking_place": true,
+				"price": 1000,
+				"publication_date": "2020-05-30T07:42:01.832Z",
+				"published": true,
+				"state": "L'vivs'ka oblast",
+				"street_address": "Doroshenka Street",
+				"title": "Villa Elite ",
+				"utilities": true,
+				"zip_code": "81071",
+				"property_images": [
+					{
+						"id": 19,
+						"createdWAt": "2020-05-22T09:15:41.966Z",
+						"updatedWAt": "2020-05-22T09:15:41.966Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138941379-127.jpeg",
+						"main_image": false,
+						"property_id": 127
+					},
+					{
+						"id": 20,
+						"createdWAt": "2020-05-22T09:15:41.971Z",
+						"updatedWAt": "2020-05-22T09:15:41.971Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138941575-127.jpeg",
+						"main_image": false,
+						"property_id": 127
+					},
+					{
+						"id": 17,
+						"createdWAt": "2020-05-22T09:15:41.955Z",
+						"updatedWAt": "2020-05-27T15:24:27.729Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138940908-127.jpeg",
+						"main_image": true,
+						"property_id": 127
+					},
+					{
+						"id": 18,
+						"createdWAt": "2020-05-22T09:15:41.961Z",
+						"updatedWAt": "2020-05-22T09:15:41.961Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138941121-127.jpeg",
+						"main_image": false,
+						"property_id": 127
+					},
+					{
+						"id": 21,
+						"createdWAt": "2020-05-22T09:15:41.975Z",
+						"updatedWAt": "2020-05-22T09:15:41.975Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138941784-127.jpeg",
+						"main_image": false,
+						"property_id": 127
+					}
+				]
+			},
+			{
+				"id": 128,
+				"createdWAt": "2020-05-22T09:18:00.480Z",
+				"updatedWAt": "2020-05-30T07:42:03.601Z",
+				"agency_id": 1,
+				"area": 100,
+				"available_from": "2020-05-30T09:15:46.000Z",
+				"bathrooms": 1,
+				"bedrooms": 2,
+				"city": "L'viv",
+				"country": "Ukraine",
+				"housing_type": "studio",
+				"deleted": false,
+				"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+				"interior": true,
+				"latitude": "49.82639219999999",
+				"longitude": "23.9998688",
+				"parking_place": true,
+				"price": 650,
+				"publication_date": "2020-05-30T07:42:03.601Z",
+				"published": true,
+				"state": "L'vivs'ka oblast",
+				"street_address": "Povstanska Street",
+				"title": "Studio Elite",
+				"utilities": true,
+				"zip_code": "79000",
+				"property_images": [
+					{
+						"id": 23,
+						"createdWAt": "2020-05-22T09:18:01.179Z",
+						"updatedWAt": "2020-05-27T07:33:58.261Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590139080727-128.jpeg",
+						"main_image": true,
+						"property_id": 128
+					},
+					{
+						"id": 24,
+						"createdWAt": "2020-05-22T09:18:01.184Z",
+						"updatedWAt": "2020-05-22T09:18:01.184Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590139081000-128.jpeg",
+						"main_image": false,
+						"property_id": 128
+					},
+					{
+						"id": 22,
+						"createdWAt": "2020-05-22T09:18:01.174Z",
+						"updatedWAt": "2020-05-22T09:18:01.174Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590139080488-128.jpeg",
+						"main_image": false,
+						"property_id": 128
+					}
+				]
+			},
+			{
+				"id": 132,
+				"createdWAt": "2020-05-27T19:48:25.381Z",
+				"updatedWAt": "2020-06-01T10:07:26.328Z",
+				"agency_id": 39,
+				"area": 24,
+				"available_from": "2020-05-27T19:43:33.580Z",
+				"bathrooms": 2,
+				"bedrooms": 4,
+				"city": "L'viv",
+				"country": "Ukraine",
+				"housing_type": "senior_accommodation",
+				"deleted": false,
+				"description": "",
+				"interior": false,
+				"latitude": "49.86705129999999",
+				"longitude": "23.9561062",
+				"parking_place": true,
+				"price": 100,
+				"publication_date": "2020-06-01T10:07:26.328Z",
+				"published": true,
+				"state": "L'vivs'ka oblast",
+				"street_address": "Shevchenka Street 340А",
+				"title": "Senior accommodation Shevchenka Street 340А",
+				"utilities": true,
+				"zip_code": "79000",
+				"property_images": [
+					{
+						"id": 40,
+						"createdWAt": "2020-06-01T07:55:45.431Z",
+						"updatedWAt": "2020-06-01T07:55:45.431Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590998145196-132.jpeg",
+						"main_image": false,
+						"property_id": 132
+					},
+					{
+						"id": 39,
+						"createdWAt": "2020-06-01T07:55:45.418Z",
+						"updatedWAt": "2020-06-01T07:55:45.418Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590998144967-132.jpeg",
+						"main_image": false,
+						"property_id": 132
+					}
+				]
+			},
+			{
+				"id": 126,
+				"createdWAt": "2020-05-22T09:11:30.656Z",
+				"updatedWAt": "2020-05-30T07:42:05.100Z",
+				"agency_id": 1,
+				"area": 200,
+				"available_from": "2020-05-30T09:03:52.000Z",
+				"bathrooms": 1,
+				"bedrooms": 1,
+				"city": "",
+				"country": "",
+				"housing_type": "senior_accommodation",
+				"deleted": false,
+				"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+				"interior": false,
+				"latitude": "40.69830339999999",
+				"longitude": "-73.9888406",
+				"parking_place": false,
+				"price": 560,
+				"publication_date": "2020-05-30T07:42:05.100Z",
+				"published": true,
+				"state": "",
+				"street_address": "",
+				"title": "Senior accommodation Elite",
+				"utilities": false,
+				"zip_code": "",
+				"property_images": [
+					{
+						"id": 16,
+						"createdWAt": "2020-05-22T09:11:37.184Z",
+						"updatedWAt": "2020-05-22T09:11:37.184Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138696941-126.jpeg",
+						"main_image": false,
+						"property_id": 126
+					},
+					{
+						"id": 14,
+						"createdWAt": "2020-05-22T09:11:37.167Z",
+						"updatedWAt": "2020-05-22T09:11:37.167Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138691140-126.jpeg",
+						"main_image": false,
+						"property_id": 126
+					},
+					{
+						"id": 13,
+						"createdWAt": "2020-05-22T09:11:37.148Z",
+						"updatedWAt": "2020-05-22T09:11:37.148Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138690962-126.jpeg",
+						"main_image": false,
+						"property_id": 126
+					},
+					{
+						"id": 12,
+						"createdWAt": "2020-05-22T09:11:37.137Z",
+						"updatedWAt": "2020-05-22T09:46:10.738Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138690672-126.jpeg",
+						"main_image": true,
+						"property_id": 126
+					},
+					{
+						"id": 15,
+						"createdWAt": "2020-05-22T09:11:37.178Z",
+						"updatedWAt": "2020-05-22T09:11:37.178Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138696782-126.jpeg",
+						"main_image": false,
+						"property_id": 126
+					}
+				]
+			},
+			{
+				"id": 129,
+				"createdWAt": "2020-05-22T09:20:54.962Z",
+				"updatedWAt": "2020-05-30T07:42:07.915Z",
+				"agency_id": 1,
+				"area": 200,
+				"available_from": "2020-05-30T09:18:05.000Z",
+				"bathrooms": 2,
+				"bedrooms": 2,
+				"city": "",
+				"country": "",
+				"housing_type": "live_workspace",
+				"deleted": false,
+				"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley",
+				"interior": true,
+				"latitude": "40.69830339999999",
+				"longitude": "-73.9888406",
+				"parking_place": true,
+				"price": 650,
+				"publication_date": "2020-05-30T07:42:07.915Z",
+				"published": true,
+				"state": "",
+				"street_address": "",
+				"title": "Live workspace Elite apartment",
+				"utilities": true,
+				"zip_code": "",
+				"property_images": [
+					{
+						"id": 26,
+						"createdWAt": "2020-05-22T09:20:55.610Z",
+						"updatedWAt": "2020-05-22T09:20:55.610Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590139255190-129.jpeg",
+						"main_image": false,
+						"property_id": 129
+					},
+					{
+						"id": 25,
+						"createdWAt": "2020-05-22T09:20:55.604Z",
+						"updatedWAt": "2020-05-22T09:46:38.480Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590139254969-129.jpeg",
+						"main_image": true,
+						"property_id": 129
+					},
+					{
+						"id": 27,
+						"createdWAt": "2020-05-22T09:20:55.615Z",
+						"updatedWAt": "2020-05-22T09:20:55.615Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590139255444-129.jpeg",
+						"main_image": false,
+						"property_id": 129
+					}
+				]
+			},
+			{
+				"id": 124,
+				"createdWAt": "2020-05-22T08:38:38.582Z",
+				"updatedWAt": "2020-05-22T09:48:14.557Z",
+				"agency_id": 35,
+				"area": 1000,
+				"available_from": "2020-05-23T08:18:25.000Z",
+				"bathrooms": 1,
+				"bedrooms": 1,
+				"city": "",
+				"country": "",
+				"housing_type": "family_house",
+				"deleted": false,
+				"description": "trtytrytryrty",
+				"interior": false,
+				"latitude": "40.69830339999999",
+				"longitude": "-73.9888406",
+				"parking_place": false,
+				"price": 650,
+				"publication_date": null,
+				"published": true,
+				"state": "",
+				"street_address": "",
+				"title": "Family house Elite",
+				"utilities": false,
+				"zip_code": "",
+				"property_images": [
+					{
+						"id": 6,
+						"createdWAt": "2020-05-22T08:59:15.030Z",
+						"updatedWAt": "2020-05-22T09:48:14.553Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590137954611-124.jpeg",
+						"main_image": true,
+						"property_id": 124
+					},
+					{
+						"id": 4,
+						"createdWAt": "2020-05-22T08:59:15.013Z",
+						"updatedWAt": "2020-05-22T08:59:15.013Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590137954025-124.jpeg",
+						"main_image": false,
+						"property_id": 124
+					},
+					{
+						"id": 7,
+						"createdWAt": "2020-05-22T08:59:15.037Z",
+						"updatedWAt": "2020-05-22T08:59:15.037Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590137954797-124.jpeg",
+						"main_image": false,
+						"property_id": 124
+					},
+					{
+						"id": 5,
+						"createdWAt": "2020-05-22T08:59:15.024Z",
+						"updatedWAt": "2020-05-22T08:59:15.024Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590137954321-124.jpeg",
+						"main_image": false,
+						"property_id": 124
+					}
+				]
+			},
+			{
+				"id": 130,
+				"createdWAt": "2020-05-22T11:14:55.544Z",
+				"updatedWAt": "2020-05-22T11:16:14.984Z",
+				"agency_id": 36,
+				"area": 200,
+				"available_from": "2020-05-30T11:12:17.000Z",
+				"bathrooms": 2,
+				"bedrooms": 2,
+				"city": "",
+				"country": "",
+				"housing_type": "family_house",
+				"deleted": false,
+				"description": "Some Discription",
+				"interior": true,
+				"latitude": "40.69830339999999",
+				"longitude": "-73.9888406",
+				"parking_place": true,
+				"price": 650,
+				"publication_date": null,
+				"published": true,
+				"state": "",
+				"street_address": "",
+				"title": "Family house Elite",
+				"utilities": true,
+				"zip_code": "",
+				"property_images": [
+					{
+						"id": 29,
+						"createdWAt": "2020-05-22T11:14:56.368Z",
+						"updatedWAt": "2020-05-22T11:14:56.368Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590146095786-130.jpeg",
+						"main_image": false,
+						"property_id": 130
+					},
+					{
+						"id": 31,
+						"createdWAt": "2020-05-22T11:14:56.378Z",
+						"updatedWAt": "2020-05-22T11:17:16.315Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590146096167-130.jpeg",
+						"main_image": true,
+						"property_id": 130
+					},
+					{
+						"id": 32,
+						"createdWAt": "2020-05-22T11:17:16.924Z",
+						"updatedWAt": "2020-05-22T11:17:16.924Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590146236291-130.jpeg",
+						"main_image": false,
+						"property_id": 130
+					},
+					{
+						"id": 33,
+						"createdWAt": "2020-05-22T11:17:16.930Z",
+						"updatedWAt": "2020-05-22T11:17:16.930Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590146236528-130.jpeg",
+						"main_image": false,
+						"property_id": 130
+					},
+					{
+						"id": 34,
+						"createdWAt": "2020-05-22T11:17:16.935Z",
+						"updatedWAt": "2020-05-22T11:17:16.935Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590146236720-130.jpeg",
+						"main_image": false,
+						"property_id": 130
+					}
+				]
+			},
+			{
+				"id": 125,
+				"createdWAt": "2020-05-22T09:10:05.682Z",
+				"updatedWAt": "2020-05-30T07:42:13.758Z",
+				"agency_id": 1,
+				"area": 200,
+				"available_from": "2020-05-30T09:03:52.000Z",
+				"bathrooms": 2,
+				"bedrooms": 2,
+				"city": "",
+				"country": "",
+				"housing_type": "family_house",
+				"deleted": false,
+				"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an ",
+				"interior": true,
+				"latitude": "40.69830339999999",
+				"longitude": "-73.9888406",
+				"parking_place": true,
+				"price": 650,
+				"publication_date": "2020-05-30T07:42:13.758Z",
+				"published": true,
+				"state": "",
+				"street_address": "",
+				"title": "Family house Elite",
+				"utilities": true,
+				"zip_code": "",
+				"property_images": [
+					{
+						"id": 11,
+						"createdWAt": "2020-05-22T09:10:06.591Z",
+						"updatedWAt": "2020-05-26T06:24:41.066Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138606385-125.jpeg",
+						"main_image": true,
+						"property_id": 125
+					},
+					{
+						"id": 10,
+						"createdWAt": "2020-05-22T09:10:06.586Z",
+						"updatedWAt": "2020-05-22T09:10:06.586Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138606190-125.jpeg",
+						"main_image": false,
+						"property_id": 125
+					},
+					{
+						"id": 8,
+						"createdWAt": "2020-05-22T09:10:06.574Z",
+						"updatedWAt": "2020-05-22T09:10:06.574Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138605693-125.jpeg",
+						"main_image": false,
+						"property_id": 125
+					},
+					{
+						"id": 9,
+						"createdWAt": "2020-05-22T09:10:06.580Z",
+						"updatedWAt": "2020-05-22T09:10:06.580Z",
+						"image": "https://real-estate-node-bucket.s3.eu-central-1.amazonaws.com/1590138606007-125.jpeg",
+						"main_image": false,
+						"property_id": 125
+					}
+				]
+			}
+		]
+	},
+	"path": "properties"
+}

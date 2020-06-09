@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/home/oleksandr/projects/test-istall-packeges_new/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/home/oleksandr/projects/test-istall-packeges_new/src/pages"
+      }
+    ],
+    "/home/oleksandr/projects/test-istall-packeges_new/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/home/oleksandr/projects/test-istall-packeges_new/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/home/oleksandr/projects/test-istall-packeges_new"
+  ],
+  "paths": {
+    "ROOT": "/home/oleksandr/projects/test-istall-packeges_new",
+    "SRC": "/home/oleksandr/projects/test-istall-packeges_new/src",
+    "DIST": "/home/oleksandr/projects/test-istall-packeges_new/dist",
+    "ASSETS": "/home/oleksandr/projects/test-istall-packeges_new/dist",
+    "PLUGINS": "/home/oleksandr/projects/test-istall-packeges_new/plugins",
+    "TEMP": "/home/oleksandr/projects/test-istall-packeges_new/tmp",
+    "ARTIFACTS": "/home/oleksandr/projects/test-istall-packeges_new/artifacts",
+    "PUBLIC": "/home/oleksandr/projects/test-istall-packeges_new/public",
+    "NODE_MODULES": "/home/oleksandr/projects/test-istall-packeges_new/node_modules",
+    "EXCLUDE_MODULES": "/home/oleksandr/projects/test-istall-packeges_new/node_modules",
+    "PACKAGE": "/home/oleksandr/projects/test-istall-packeges_new/package.json",
+    "HTML_TEMPLATE": "/home/oleksandr/projects/test-istall-packeges_new/dist/index.html",
+    "STATIC_DATA": "/home/oleksandr/projects/test-istall-packeges_new/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
