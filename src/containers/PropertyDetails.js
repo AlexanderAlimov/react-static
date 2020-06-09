@@ -31,6 +31,8 @@ export default function PropertyDetails() {
 	}
 
 	const renderEditRemoveButtons = () => {
+		console.log(222222)
+		console.log(property.belongs_to)
 		const belongsTo = property.belongs_to;
 		if (belongsTo) {
 				return (
