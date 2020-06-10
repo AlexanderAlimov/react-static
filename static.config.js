@@ -1,12 +1,25 @@
 import path from 'path'
 import axios from 'axios'
+import { rebuildRoutes } from 'react-static/node'
+import { addPrefetchExcludes } from 'react-static'
+
+
+// addPrefetchExcludes(['properties'])
+
+const getDataTestFunc = async () => {
+	const { data: props } = await axios.get(
+		'https://real-estate-node-dev.herokuapp.com/api/v1/properties'
+		// 'http://localhost:3000/api/v1/properties'
+	)
+	return props;
+}
+
+
+// setInterval(rebuildRoutes, 10000)
 
 export default {
   getRoutes: async () => {
-    const { data: props } = await axios.get(
-      'https://real-estate-node-dev.herokuapp.com/api/v1/properties'
-		)
-
+		const props = await getDataTestFunc();
     return [
       {
         path: '/properties',

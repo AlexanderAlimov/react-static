@@ -1151,6 +1151,8 @@ function PropertyDetails() {
   };
 
   var renderEditRemoveButtons = function renderEditRemoveButtons() {
+    console.log(222222);
+    console.log(property.belongs_to);
     var belongsTo = property.belongs_to;
 
     if (belongsTo) {
@@ -1248,7 +1250,7 @@ function PropertyDetails() {
     className: "col-sm-12 r-property-map-block"
   }, /*#__PURE__*/external_react_default.a.createElement(external_google_map_react_default.a, {
     bootstrapURLKeys: {
-      key: 'AIzaSyACXh16vPT6tGEZANdBnZWKXx6YnuBlrhI',
+      key: 'sometestapikey',
       language: 'en'
     },
     defaultCenter: center,

@@ -135,7 +135,7 @@ export default function PropertyDetails() {
 															<div className="col-sm-12 r-property-map-block">
 																	<GoogleMapReact
 																			bootstrapURLKeys={{
-																					key: 'AIzaSyACXh16vPT6tGEZANdBnZWKXx6YnuBlrhI', 
+																					key: 'sometestapikey', 
 																					language: 'en'
 																			}}
 																			defaultCenter={center}
